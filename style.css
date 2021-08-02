@@ -32,3 +32,16 @@ footer ul li{
     margin: 0 6px;
     cursor: pointer;
 }
+/* detail page============================================= */
+.container-thumbs{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-thumbnail{
+    width: 200px;
+    height: 200px;
+}
+.quantity{
+    width: 30px;
+    border: 2px solid gray;
