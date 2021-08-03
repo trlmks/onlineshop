@@ -42,4 +42,13 @@ footer ul li{
 .img-thumbnail{
     width: 30%;
     height: 30%;
+    cursor: pointer;
 }
+.fade{
+    opacity: 0;
+    animation: fade 1s forwards;
+}
+@keyframes fade{
+    to{
+        opacity: 1;
+    }
