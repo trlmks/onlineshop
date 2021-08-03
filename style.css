@@ -4,7 +4,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-}
 nav{
     z-index: 999;
 }
@@ -33,15 +32,15 @@ footer ul li{
     cursor: pointer;
 }
 /* detail page============================================= */
-.container-thumbs{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-.img-thumbnail{
-    width: 200px;
-    height: 200px;
-}
+
 .quantity{
     width: 30px;
     border: 2px solid gray;
+    padding: 0 1px;
+    text-align: center;
+}
+.img-thumbnail{
+    width: 150px;
+    height: 150px;
+    margin: 0 4px;
+}
