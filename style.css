@@ -40,7 +40,6 @@ footer ul li{
     text-align: center;
 }
 .img-thumbnail{
-    width: 150px;
-    height: 150px;
-    margin: 0 4px;
+    width: 30%;
+    height: 30%;
 }
