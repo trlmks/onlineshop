@@ -1,3 +1,13 @@
+// untuk halaman home
+const havana = document.querySelector('.havana');
+console.log(jumbo);
+
+
+
+
+
+
+// untuk halaman detail
 const container = document.querySelector('.container-thumbs');
 const jumbo = document.querySelector('.jumbo');
 
