@@ -15,20 +15,23 @@ nav ul{
 }
 nav ul li{
     list-style: none;
-    padding: 0 0 0 4%;
+    padding: 0 2%;
 }
 nav a{
     text-decoration: none;
     color: white;
+}
+.d-block{
+    object-fit: cover;
 }
 .container,a{
     color: white;
     text-decoration: none;
 }
 .container img:hover{
-    transform: scale(1.1);
+    opacity: 50%;
     transition:all .5s;
-    overflow: hidden;
+    
 }
 .container img{
     border-radius: 10px;
