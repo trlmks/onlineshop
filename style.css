@@ -10,9 +10,7 @@ body{
 nav ul li{
     padding: 0 10px;
 }
-nav ul li:hover{
-    color: white;
-}
+
 .logo{
     height: 30px;
     object-fit: cover;
@@ -26,7 +24,7 @@ nav ul li:hover{
     color: rgb(107, 105, 105);
     text-decoration: none;
 }
-.main img:hover{
+.main img:hover, .thumbs img:hover{
     opacity: 50%;
     transition:all .5s;
     
@@ -52,4 +50,31 @@ hr{
 }
 footer{
     color: white;
+}
+/* page shop */
+.shop ul{
+    list-style: none;
+}
+.shop-list ul li a{
+    text-decoration: none;
+    color: rgb(107, 105, 105);
+}
+.shop-list a:hover, .thumbs a:hover{
+    color: white;
+}
+.thumbs a{
+    color: rgb(107, 105, 105);
+    text-decoration: none;
+}
+/*css3 design scrollbar*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {      
+    background: #232323;    
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #666;
 }
