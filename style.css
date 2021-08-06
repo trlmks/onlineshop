@@ -73,7 +73,7 @@ footer{
 .store p, .store h3{
     text-align: left;
     color: #fff;
-    line-height: 1em;
+    margin:0;
 }
 .store .img-store{
     width: 100%;
