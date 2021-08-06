@@ -66,6 +66,18 @@ footer{
     color: rgb(107, 105, 105);
     text-decoration: none;
 }
+/* page store */
+.container-store{
+    margin-bottom: 3em;
+}
+.store p, .store h3{
+    text-align: left;
+    color: #fff;
+    line-height: 1em;
+}
+.store .img-store{
+    width: 100%;
+}
 /*css3 design scrollbar*/
 ::-webkit-scrollbar {
     width: 10px;
