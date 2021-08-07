@@ -78,6 +78,10 @@ footer{
 .store .img-store{
     width: 100%;
 }
+/* cart page */
+.item-list h3, .item-list p{
+    margin: 0;
+}
 /*css3 design scrollbar*/
 ::-webkit-scrollbar {
     width: 10px;
